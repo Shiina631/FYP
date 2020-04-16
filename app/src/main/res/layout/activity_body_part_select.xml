@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".bodyPartSelectActivity">
+
+
+    <Button
+        android:id="@+id/backBtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="205sp"
+        android:layout_height="53dp"
+        android:background="@color/lightGreen"
+        android:text="Back"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/freeTrialBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/takePhotoBtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="205sp"
+        android:layout_height="53dp"
+        android:background="@color/darkBlue"
+        android:text="Take Photo"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
