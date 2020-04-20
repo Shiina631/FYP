@@ -37,21 +37,23 @@
     <Button
         android:id="@+id/loginBtn"
         style="?android:attr/buttonBarButtonStyle"
-        android:background="@color/lightGreen"
-        android:textColor="@color/white"
-        android:layout_width="137dp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
+        android:background="@color/lightGreen"
         android:text="@string/login"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registerBtn"
         app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/registerBtn"
         style="?android:attr/buttonBarButtonStyle"
-        android:background="@color/lightBlue"
-        android:textColor="@color/white"
-        android:layout_width="137dp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
+        android:background="@color/lightBlue"
         android:text="@string/register"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/freeTrialBtn"
         app:layout_constraintStart_toEndOf="@+id/loginBtn" />
@@ -59,25 +61,26 @@
     <Button
         android:id="@+id/freeTrialBtn"
         style="?android:attr/buttonBarButtonStyle"
-        android:background="@color/darkBlue"
-        android:textColor="@color/white"
-        android:layout_width="137dp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
+        android:background="@color/darkBlue"
         android:text="@string/freeTrial"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/registerBtn" />
 
     <android.support.v7.widget.CardView
-        android:layout_width="364dp"
+        android:layout_width="0dp"
         android:layout_height="175dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455">
+        app:layout_constraintVertical_bias="0.458">
 
         <ImageView
             android:id="@+id/imageView"

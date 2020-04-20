@@ -63,8 +63,10 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="272sp"
+        android:layout_width="match_parent"
         android:layout_height="50sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/input_field"
         android:ems="10"
@@ -78,8 +80,10 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="272sp"
+        android:layout_width="match_parent"
         android:layout_height="50sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="112dp"
         android:background="@drawable/input_field"
         android:ems="10"
