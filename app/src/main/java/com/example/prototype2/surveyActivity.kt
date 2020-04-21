@@ -11,6 +11,9 @@ class surveyActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_survey)
 
+        backBtn3.setOnClickListener{
+            finish()
+        }
         bodyPartSelectBtn.setOnClickListener {
             val intent = Intent(this, bodyPartSelectActivity::class.java)
             startActivity(intent)

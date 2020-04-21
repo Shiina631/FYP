@@ -12,6 +12,10 @@ class bodyPartSelectActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_body_part_select)
 
+        backBtn4.setOnClickListener{
+            finish()
+        }
+
         takePhotoBtn.setOnClickListener {
             val intent = Intent(this, TakePhotoActivity::class.java)
             startActivity(intent)

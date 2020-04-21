@@ -8,6 +8,10 @@
     tools:context=".loginActivity">
 
 
+
+
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="164dp"
@@ -20,7 +24,7 @@
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/loginAccBtn"
@@ -102,4 +106,19 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         android:autofillHints="@string/password" />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="28sp"
+        android:layout_height="28sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="353dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:srcCompat="@drawable/backbutton" />
 </android.support.constraint.ConstraintLayout>

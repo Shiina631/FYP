@@ -11,7 +11,9 @@ class fullSurveyActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_full_survey)
 
-
+        backBtn6.setOnClickListener{
+            finish()
+        }
 
     }
 }
