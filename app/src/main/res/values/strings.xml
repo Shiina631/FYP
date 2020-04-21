@@ -17,4 +17,13 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+    <string name="photo">photo</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="repeated_password">Repeated Password</string>
+    <string name="back">Back</string>
+    <string name="processed">Processed</string>
+    <string name="upload">Upload</string>
+    <string name="take_photo">Take Photo</string>
 </resources>
