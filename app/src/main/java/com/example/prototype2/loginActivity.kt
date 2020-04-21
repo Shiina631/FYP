@@ -14,6 +14,7 @@ class loginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+
         backBtn.setOnClickListener{
             finish()
         }
