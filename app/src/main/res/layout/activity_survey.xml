@@ -24,25 +24,26 @@
     <Button
         android:id="@+id/backBtn"
         style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="205sp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
         android:background="@color/lightGreen"
         android:text="Back"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/freeTrialBtn"
+        app:layout_constraintEnd_toStartOf="@+id/bodyPartSelectBtn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/bodyPartSelectBtn"
         style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="205sp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
         android:background="@color/darkBlue"
         android:text="Processed"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backBtn" />
 
     <TextView
         android:id="@+id/textView2"

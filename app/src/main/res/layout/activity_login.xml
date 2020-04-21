@@ -17,15 +17,17 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintVertical_bias="0.836" />
 
     <Button
         android:id="@+id/loginAccBtn"
-        android:layout_width="175dp"
+        android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
         android:layout_marginBottom="28dp"
         android:background="@drawable/button1"
         android:text="Login"
@@ -37,8 +39,10 @@
 
     <Button
         android:id="@+id/registerBtn"
-        android:layout_width="175dp"
+        android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
         android:layout_marginBottom="28dp"
         android:background="@drawable/button2"
         android:text="Register"
@@ -50,8 +54,10 @@
 
     <Button
         android:id="@+id/forgetPasswordBtn"
-        android:layout_width="175dp"
+        android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
         android:layout_marginBottom="72dp"
         android:background="@drawable/button3"
         android:text="Forgot Password"

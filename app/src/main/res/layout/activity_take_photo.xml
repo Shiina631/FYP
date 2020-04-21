@@ -11,25 +11,26 @@
     <Button
         android:id="@+id/backBtn2"
         style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="205sp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
         android:background="@color/lightGreen"
         android:text="Back"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/freeTrialBtn"
+        app:layout_constraintEnd_toStartOf="@+id/submit"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/bodyPartSelectBtn2"
+        android:id="@+id/submit"
         style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="205sp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
         android:background="@color/darkBlue"
-        android:text="Processed"
+        android:text="Upload"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backBtn2" />
 
     <ImageView
         android:id="@+id/imageView2"
