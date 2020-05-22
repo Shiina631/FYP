@@ -28,10 +28,13 @@
     <string name="take_photo">Take Photo</string>
 
     <string name="selected_item">Selected item:</string>
-
     <string-array name="gender">
         <item>Male</item>
         <item>Female</item>
         <item>Third gender</item>
     </string-array>
+
+    <string name="about">Your E-solution. Reviving your Natural Shield.</string>
+
+
 </resources>

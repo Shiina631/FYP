@@ -7,7 +7,6 @@
     android:background="@drawable/background"
     tools:context=".bodyPartSelectActivity">
 
-
     <ImageView
         android:id="@+id/backBtn4"
         android:layout_width="28sp"

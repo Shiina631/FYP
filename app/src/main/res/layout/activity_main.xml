@@ -7,14 +7,39 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/calming_baby_balm_box_mockup_3_corrected" />
+    </android.support.v7.widget.CardView>
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="Hello World!"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/about"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,24 +98,25 @@
         app:layout_constraintStart_toEndOf="@+id/registerBtn" />
 
     <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
         android:layout_width="0dp"
         android:layout_height="175dp"
         android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="25dp"
+        android:layout_marginBottom="80dp"
+        app:cardCornerRadius="10sp"
         app:layout_constraintBottom_toTopOf="@+id/registerBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.21">
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="176dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@android:drawable/btn_dialog"
-            android:contentDescription="@string/photo" />
-
+            android:id="@+id/imageView5"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rs112cc" />
     </android.support.v7.widget.CardView>
 
 
